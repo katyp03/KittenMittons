@@ -1,0 +1,240 @@
+header {
+	background-color: #008000;
+	color: white;
+	height: 140px;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: 5px solid white;
+}
+
+h1 {
+	text-align: center;
+	font-size: 95px;
+	margin: 0;
+	padding-top: 10px;
+}
+
+h1, h2 {
+	font-family: Chalkboard, "Comic Sans", sans-serif;
+}
+
+body {
+	background: url("paddys.jpg");
+	/*trying to get background to stay fixed:*/
+	/*background-position: fixed;*/
+}
+
+div {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+p {
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+#divpic1 {
+	float: left;
+	margin-left: 50px;
+	margin-right:30px;
+	margin-bottom: 40px;
+	width: 500px;
+	height: 300px;
+}
+
+#helloPic {
+	padding-left: 24px;
+	padding-top: 23px;
+	width: 450px;
+}
+
+#section1 {
+	float: left;
+	margin-top: 35px;
+	margin-left: 65px;
+	margin-bottom: 40px;
+	width: 740px;
+	height: 210px;
+}
+
+#hello {
+	text-align: center;
+	font-size: 50px;
+}
+
+#par1 {
+	font-size: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#section2 {
+	float: left;
+	clear: left;
+	margin-left: 45px;
+	margin-top: 80px;
+	width: 400px;
+	height: 470px;
+}
+
+#section2 p {
+	font-size: 33px;
+	padding-left: 25px;
+	padding-right: 35px;
+	line-height: 1.3;
+}
+
+#divpic2 {
+	float: right;
+	width: 928px;
+	height: 424px;
+	margin-right: 15px;
+	margin-top: 90px;
+}
+
+.clawPics {
+	float: right;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+#cougar {
+	width: 300px;
+	padding-top: 60px;
+}
+
+#tiger {
+	width: 250px;
+}
+
+#lion {
+	width: 300px;
+	padding-top: 105px;
+}
+
+#noSolution {
+	float: left;
+	width: 550px;
+	height: 360px;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 100px;
+	margin-bottom: 70px;
+}
+
+#noSolution #stupid {
+	font-size: 50px;
+}
+
+#noSolution #solution {
+	font-size: 42px;
+}
+
+.font {
+	font-family: Chalkboard, "Comic Sans", sans-serif;
+}
+
+#divpic3 {
+	float: left;
+	width: 500px;
+	height: 300px;
+	margin-left: 115px;
+}
+
+#mittenCat {
+	width: 450;
+}
+
+#section3 {
+	width: 405px;
+	height: 150px;
+	float: right;
+	clear: right;
+	margin-right: 240px;
+	margin-top: 100px;
+}
+	
+#par3 {
+	width: 380px;
+	height: 60px;
+	font-size: 35px;
+	padding-left: 15px;
+	padding-right: 35px;
+	padding-bottom: 15px;
+	margin-top: 10px;
+	line-height: 1.3;
+}
+
+#section4 {
+	width: 560px;
+	height: 130px;
+	float: left;
+	clear: left;
+	margin-left: 435px;
+	margin-top: 120px;
+}
+
+.sec4par {
+	font-size: 28px;
+	width: 540px;
+	height: 25px;
+	padding-left: 10px;
+}
+
+#divpic4 {
+	width: 445px;
+	height: 315px;
+	float: left;
+	margin-left: 495px;
+	margin-top: 50px;
+}
+
+#logo {
+	width: 400px;
+	padding-top: 22px;
+	padding-left: 22px;
+}
+
+#section5 {
+	width: 750px;
+	height: 400px;
+	float:left;
+	clear: left;
+	margin-top: 30px;
+	margin-left: 340px;
+	margin-bottom: 30px;
+	font-size: 35px;
+}
+
+/*beginning of modal*/
+#modalForm.off {
+	display: none;
+}
+
+#modalForm.on {
+	width: 530px;
+	height: 300px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	font-size: 22px;
+	text-align: center;
+	border: 3px solid black;
+	display: inline-block;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-left:-265px;
+	margin-top:-150px;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+#modalForm.on button {
+	width: 310px;
+	height: 35px;
+	font-size: 16px;
+	background-color: #b3ffb3;
+}
+/*end of modal*/
